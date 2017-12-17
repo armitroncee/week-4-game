@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>RPG game</title>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<h1 id="heading">RPG game</h1>
+	<img src="assets/images/doge.jpg" id="doge" alt="Doge"/>
+	<img src="assets/images/moonmoon.jpg" id="moon" alt="moonmoon"/>
+	<img src="assets/images/russia.jpg" id="russia" alt="Soviet Doggo"/>
+	<img src="assets/images/sosij.jpg" id="sosij" alt="Sosij Doggo"/>
+<div id="maincontainer">
+	<h2 id="char">Your Character</h2>
+	<div id="dogecharbox">
+	<h3 id="dogename1"></h3>
+	<img src="assets/images/doge.jpg" id="dogechar" class="show" alt="Doge"/>
+	<h3 id="dogehealth1"></h3>
+	</div>
+	<div id="mooncharbox">
+	<h3 id="moonname1"></h3>
+	<img src="assets/images/moonmoon.jpg" id="moonchar" class="show" alt="moonmoon"/>
+	<h3 id="moonhealth1"></h3>
+	</div>
+	<div id="russiacharbox">
+	<h3 id="russianame1"></h3>
+	<img src="assets/images/russia.jpg" id="russiachar" class="show" alt="Soviet Doggo"/>
+	<h3 id="russiahealth1"></h3>
+	</div>
+	<div id="sosijcharbox">
+	<h3 id="sosijname1"></h3>
+	<img src="assets/images/sosij.jpg" id="sosijchar" class="show" alt="Sosij Doggo"/>
+	<h3 id="sosijhealth1"></h3>
+	</div>
+<div id="availtoattack">
+	<h2 id="midsection"> Enemies Available to Attack</h2>
+	<div id="dogeshowbox">
+	<h3 id="dogename2"></h3>
+	<img src="assets/images/doge.jpg" id="dogeshow" class="show" alt="Doge"/>
+	<h3 id="dogehealth2"></h3>
+	</div>
+	<div id="moonshowbox">
+	<h3 id="moonname2"></h3>
+	<img src="assets/images/moonmoon.jpg" id="moonshow" class="show" alt="moonmoon"/>
+	<h3 id="moonhealth2"></h3>
+	</div>
+	<div id="russiashowbox">
+	<h3 id="russianame2"></h3>
+	<img src="assets/images/russia.jpg" id="russiashow" class="show" alt="Soviet Doggo"/>
+	<h3 id="russiahealth2"></h3>
+	</div>
+	<div id="sosijshowbox">
+	<h3 id="sosijname2"></h3>
+	<img src="assets/images/sosij.jpg" id="sosijshow" class="show" alt="Sosij Doggo"/>
+	<h3 id="sosijhealth2"></h3>
+	</div>
+</div>
+</div>
+	<h2 id="fightsection">Fight Section</h2>
+	<button type="button" id="attackbutton" class="enableOnInput" disabled="disabled">Attack</button>
+	<h2>Defender</h2>
+	<div id="dogedefendbox">
+	<h3 id="dogename"></h3>
+	<img src="assets/images/doge.jpg" id="dogedefend" class="show" alt="Doge"/>
+	<h3 id="dogehealth"></h3>
+	</div>
+	<div id="moondefendbox">
+	<h3 id="moonname"></h3>	
+	<img src="assets/images/moonmoon.jpg" id="moondefend" class="show" alt="moonmoon"/>
+	<h3 id="moonhealth"></h3>
+	</div>
+	<div id="russiadefendbox">
+	<h3 id="russianame"></h3>	
+	<img src="assets/images/russia.jpg" id="russiadefend" class="show" alt="Soviet Doggo"/>
+	<h3 id="russiahealth"></h3>
+	</div>
+	<div id="sosijdefendbox">
+	<h3 id="sosijname"></h3>	
+	<img src="assets/images/sosij.jpg" id="sosijdefend" class="show" alt="Sosij Doggo"/>
+	<h3 id="sosijhealth"></h3>
+	</div>
+	<div id="message"></div>
+	<div id="message2"></div>
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

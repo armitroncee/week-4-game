@@ -1,0 +1,169 @@
+body {
+	background-image: url("../images/background.jpg");
+	color: red;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+.show {
+	display: none;
+}
+
+#dogedefendbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#russiadefendbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#sosijdefendbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#moondefendbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: black;
+	margin-top: 20px;
+}
+
+#dogecharbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#mooncharbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#sosijcharbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#russiacharbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: red;
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#moonshowbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: black;
+	background-color: red;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+#dogeshowbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: black;
+	background-color: red;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+#russiashowbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: black;
+	background-color: red;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+#sosijshowbox {
+	height: 200px;
+	width: 150px;
+	text-align: center;
+	color: black;
+	background-color: red;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	color: red;
+	font-weight: 900;
+	font-family: 'Risque', cursive;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: yellow;
+	font-weight: 900;
+	font-family: 'Risque', cursive;
+}
+
+#availtoattack {
+	clear: both;
+	display: inline;
+	padding: 100px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+}
+
+#maincontainer {
+	display: inline;
+	clear: both;
+}
+
+#heading {
+	margin-bottom: 50px;
+}
